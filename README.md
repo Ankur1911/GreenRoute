@@ -23,7 +23,6 @@ This project consists of a powerful **FastAPI backend** that performs all the ca
 - [API Endpoints](#api-endpoints)
   - [Calculate Trip](#calculate-trip)
   - [Other Endpoints](#other-endpoints)
-- [Project Structure](#project-structure)
 
 ***
 
