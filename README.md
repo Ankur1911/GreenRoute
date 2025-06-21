@@ -78,8 +78,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/your-username/greenroute-api.git](https://github.com/your-username/greenroute-api.git)
-    cd greenroute-api
+    git clone [https://github.com/Ankur1911/GreenRoute.git](https://github.com/Ankur1911/GreenRoute.git)
+    cd GreenRoute
     ```
 
 2.  **Set up the Backend**
@@ -97,28 +97,16 @@ Follow these instructions to get a copy of the project up and running on your lo
         python -m venv venv
         .\venv\Scripts\activate
         ```
-    -   Install the required Python packages. A `requirements.txt` file should be present in the `backend` folder with the following content:
-        ```
-        fastapi
-        uvicorn[standard]
-        pydantic
-        python-dotenv
-        google-generativeai
-        httpx
-        ```
-        Install them using:
+    -   Install the required Python packages using: 
         ```sh
         pip install -r requirements.txt
         ```
-    -   Create an environment file to store your API key. First, copy the example file:
-        ```sh
-        cp .env.example .env
-        ```
-    -   Now, open the newly created `.env` file and add your Google Gemini API key:
+    -   Create an environment file to store your API key.
         ```
         # .env file
         GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
         ```
+      
 
 3.  **Frontend Setup**
     -   The frontend is a simple `index.html` file with vanilla JavaScript. It requires no special installation or build steps.
@@ -185,4 +173,4 @@ This is the main endpoint for calculating trip emissions.
 
 ***
 
-## Project Structure
+---
